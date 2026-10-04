@@ -20,4 +20,4 @@ Fishbone fields now occupy dedicated compartments separated by gutters, preventi
 
 History dropdown: search and select multiple conditions from the supplied CONDITION DATABASE.xlsx (72 entries). Selected conditions appear in the report and editable backup. Additional history notes and older saved history remain supported. Build 2026-10-03f.
 
-Build 2026-10-03g: lab calendar/date and time pickers with T (today), T-1 / T+1 (days), N (now), N-30 / N+30 (minutes), N-1H / N+1H (hours). Apply shortcuts with Enter or by leaving the field. Uses device local time. Time offsets also set the corresponding date. Existing saved dropdown dates/times remain supported.
+Build 2026-10-03h: lab date and time use calendar and clock pickers; shortcuts removed. Ventilator modes include PRVC and Bi-level. Selecting Bi-level shows T-high / T-low (seconds) and P-high / P-low (cmH2O) inputs. Values are saved in editable sheets and included in reports when Bi-level is selected.
