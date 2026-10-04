@@ -8,4 +8,16 @@ Use dropdowns and free-text notes for the assessment. Add as many line/drain or 
 
 Use your organization's approved process for patient information and saved files. Blank fields are not normal findings. This is a handoff aid, not an EHR record, order entry tool, dose calculator, or clinical scoring engine.
 
-Build 2026-10-03a
+Build 2026-10-03e
+
+Neuro includes motor response and separate right/left upper/lower limb strength selections. Cardiovascular includes bilateral radial, dorsalis pedis and posterior tibial pulse selections, plus a notes field for other pulse sites. Saved sheets from the earlier version remain compatible; new fields start blank.
+
+Neuro includes gag, cough, and separate right/left corneal reflex assessments. All start blank and appear in printed and saved reports when selected.
+
+Labs include editable, labeled fishbone diagrams for CBC, basic metabolic panel, hepatic panel and coagulation. Additional calcium, fibrinogen and lactate fields plus separate collection-time fields are included. Enter lab values as reported; no interpretation, normal ranges or calculations are applied. Diagrams are preserved in reports and editable backups.
+
+Fishbone fields now occupy dedicated compartments separated by gutters, preventing lines from crossing entry boxes. Each lab panel has month, day, year, hour (24-hour), and minute dropdowns. Earlier saved sample-time text remains visible until dropdowns replace it.
+
+History dropdown: search and select multiple conditions from the supplied CONDITION DATABASE.xlsx (72 entries). Selected conditions appear in the report and editable backup. Additional history notes and older saved history remain supported. Build 2026-10-03f.
+
+Build 2026-10-03g: lab calendar/date and time pickers with T (today), T-1 / T+1 (days), N (now), N-30 / N+30 (minutes), N-1H / N+1H (hours). Apply shortcuts with Enter or by leaving the field. Uses device local time. Time offsets also set the corresponding date. Existing saved dropdown dates/times remain supported.
