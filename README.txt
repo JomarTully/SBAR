@@ -21,3 +21,7 @@ Fishbone fields now occupy dedicated compartments separated by gutters, preventi
 History dropdown: search and select multiple conditions from the supplied CONDITION DATABASE.xlsx (72 entries). Selected conditions appear in the report and editable backup. Additional history notes and older saved history remain supported. Build 2026-10-03f.
 
 Build 2026-10-03h: lab date and time use calendar and clock pickers; shortcuts removed. Ventilator modes include PRVC and Bi-level. Selecting Bi-level shows T-high / T-low (seconds) and P-high / P-low (cmH2O) inputs. Values are saved in editable sheets and included in reports when Bi-level is selected.
+
+Build 2026-10-03i: phosphate (mg/dL) and magnesium (mg/dL) added beside calcium under the basic metabolic panel. Included in editable backups and printed/saved reports.
+
+Build 2026-10-03j: ionized calcium (mmol/L) added with the electrolyte fields; included in editable backups and saved/printed reports.
